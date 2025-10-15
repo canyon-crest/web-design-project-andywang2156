@@ -1,1 +1,13 @@
 
+body{
+    background-color:#ff6767;
+    color:#fff;
+}
+
+p{
+    line-height: 2.25em;
+}
+img{
+    width: 300px;
+    float: right;
+}
