@@ -1,13 +1,84 @@
 
 body{
-    background-color:#ff6767;
+    background-color:#676767;
     color:#fff;
+    font-family: sans-serif;
 }
-
+#container{
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(225, 213, 175);
+}
+h1{
+    background-color: rgb(121, 147, 156); 
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-family:Georgia;
+    color:black;
+}
+h2{
+    font-size:1.3em;
+    text-align: center;
+    font-style:italic;
+    color:black;
+}
+h3{
+    border-left:20px groove white;
+    padding: 15px;
+    border-radius: 60px;
+    border-bottom: 2px solid #ccc;
+    width: 100px;
+    color:black;
+}
 p{
     line-height: 2.25em;
+    padding: 40px;
+    background-color:lightgray;
+    color:black;
+    border-radius: 10px;
 }
 img{
-    width: 300px;
+    width: 160px;
+    float: left;
+    border: 3px solid white;
+    border-radius: 15px;
+    margin: 15px;
+}
+a:link{
+    color:red;
+    text-decoration:none;
+    font-weight: bold;
+}
+a:visited{
+    color: darkred;
+}
+a:hover{
+    color: purple;
+    text-decoration:underline;
+}
+a:active{
+    color: darkblue;
+}
+/* ID RULES */
+#pic1 {
+    border: 1;
+}
+#pic2{
     float: right;
+    width: 170px;
+}
+#pic3{
+    width: 300px;
+}
+/* CLASS RULE */
+.highlight {
+    background-color:yellow;
+    padding: 2px;
+    border-radius: 3px;
+    font-weight: bold;
 }
